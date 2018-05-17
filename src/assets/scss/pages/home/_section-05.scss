@@ -1,0 +1,59 @@
+.section-05 {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+
+  .section-content {
+    position: relative;
+    background-color: #373737;
+    padding: 3.5rem 4rem;
+
+    &:before {
+      content: '';
+      position: absolute;
+      background-color: #373737;
+      top: 0;
+      right: 0;
+      width: calc(200% + 45px);
+      height: 100%;
+      z-index: -1;
+    }
+
+    .title {
+      color: #ad7835;
+      font-size: 3.75rem;
+      font-family: 'Droid Serif';
+      line-height: 1;
+    }
+    .line {
+      background-color: #ad7835;
+      width: 6.25rem;
+      height: 0.125rem;
+      margin-top: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+    label {
+      color: #ffffff;
+      font-size: 1rem;
+      font-family: 'Raleway';
+    }
+    .form-control {
+      color: #737373;
+      background-color: transparent;
+      border: 0.0625rem solid #737373;
+
+      &:focus {
+        color: lighten(#737373, 15%);
+        border: 0.0625rem solid lighten(#737373, 15%);
+        box-shadow: unset;
+      }
+    }
+    button {
+      font-size: 1rem;
+      font-family: 'Raleway';
+      font-weight: 700;
+      border-radius: unset;
+      padding: 0.75rem 2.75rem;
+      margin-top: 2.5rem;
+    }
+  }
+}

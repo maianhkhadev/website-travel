@@ -1,0 +1,598 @@
+/* Font Imports for Custom Menu */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+/* Start div body */
+.cDTE_CommunityCustomLayout .body {
+    margin-top: 1rem !important;
+}
+/* End div body */
+
+/* navigation bar look - only for desktop version*/
+.cDTE_BaseThemeLayout .capricornNavBar .desktop ul {
+	text-align: right;
+    margin-right: 150px;
+	margin-top: 90px;
+    text-transform: uppercase;
+}
+
+.slds-tabs--default__item:hover {
+	background-color: #0070d2;
+	color: #ffffff !important;
+}
+
+/* header logo look */
+.siteforceNapiliBody .cBrandingLogo {
+    max-height: 150px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+/* styling for Health Warning component – NEW approach */
+.cDTE_HealthWarning.healthWarningContainer {
+    background: #ffffff ;
+    border: solid 10px black ;
+    color: black ;
+    padding: 0.5rem 1rem ;
+    text-align: center;
+}
+
+/* Logo image for login pages - starts here */
+.cDTE_LoginForm:not(.old-UX) .logo-wrapper div.login-logo,
+.cDTE_ForgotPassword:not(.old-UX) .logo-wrapper div.login-logo,
+.cDTE_SelfRegistration:not(.old-UX) .logo-wrapper div.login-logo { background-image: url('/file-asset/PMI_Logo45?v=1');
+}
+/* Logo image for login pages - ends here */
+/* Custom CSS for Login pages and Self Registration (with Base Layout) - starts here */
+html{
+    font-size:16px
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+    html{
+        font-size:15px
+    }
+}
+@media screen and (min-width:600px) and (max-width:1200px){
+    html{
+        font-size:14px
+    }
+}
+@media screen and (min-width:350px) and (max-width:600px){
+    html{
+        font-size:12px
+    }
+}
+@media screen and (max-width:350px){
+    html{
+        font-size:10px
+    }
+}
+body{
+    background-color:#000
+}
+.btn-black{
+    background-color:#c6961d
+}
+.btn-black,.btn-black:hover{
+    color:#fff !important;
+    border-color:#c6961d
+}
+.btn-black:hover{
+    background-color:#836313
+}
+.btn-black.focus,.btn-black:focus{
+    box-shadow:#836313
+}
+.btn-black-outline{
+    color:#fff !important;
+    background-color:#000;
+    border-color:#c6961d
+}
+.btn-black-outline:hover{
+    color:#fff !important;
+    background-color:#c6961d;
+    border-color:#c6961d
+}
+.btn-black-outline.focus,.btn-black-outline:focus{
+    box-shadow:unset
+}
+.mirum-header{
+    background-image:url(https://dev5.sofresh.vn/morrisreward/assets/images/salesforce/bim.png);
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:6.25rem;
+    padding-bottom:1.25rem
+}
+.mirum-header .links{
+    padding-left:.75rem;
+    padding-right:.75rem;
+    margin-bottom:1.5rem
+}
+.mirum-header .links .link{
+    padding-left:.2rem;
+    padding-right:.2rem
+}
+.mirum-header .links .link button{
+    font-size:1rem;
+    font-family:Oswald;
+    text-transform:uppercase;
+    border-radius:1.75rem
+}
+.mirum-header .title-container{
+    position:relative;
+    text-align:center
+}
+.mirum-header .title-container:before{
+    left:auto;
+    right:0
+}
+.mirum-header .title-container:after,.mirum-header .title-container:before{
+    content:"";
+    position:absolute;
+    top:calc(50% - .125rem);
+    width:calc(50% - 6rem);
+    height:0;
+    border-top:.2rem dotted #d9a41e
+}
+.mirum-header .title-container:after{
+    left:0;
+    right:auto
+}
+.mirum-header .title-container .title{
+    display:inline-block;
+    color:#d9a41e;
+    font-size:1.2rem;
+    font-family:Roboto;
+    font-weight:700
+}
+.main{
+    padding-bottom:.5rem
+}
+.main .post{
+    position:relative;
+    padding-top:2rem;
+    padding-bottom:1.25rem;
+    margin-bottom:2.5rem;
+    cursor:pointer
+}
+.main .post .icon{
+    top:0;
+    width:4rem
+}
+.main .post .icon,.main .post a{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%)
+}
+.main .post a{
+    bottom:0;
+    font-size:1.25rem;
+    font-family:Oswald;
+    text-transform:uppercase;
+    border-radius:3rem;
+    padding:.25rem 3rem
+}
+.socials{
+    background-color: #000000;
+    border-top:.2rem dotted #d9a41e;
+    padding-top:1.25rem;
+    padding-bottom:1.25rem
+}
+.socials .text{
+    color:#fff;
+    font-size:1rem;
+    font-family:Roboto;
+    font-weight:300
+}
+.socials .col-3{
+    padding-left: unset;
+    padding-right: unset;
+}
+.socials .link{
+    color:#fff;
+    font-size:0.75rem;
+    font-family:Roboto;
+    font-weight:300;
+    text-decoration: underline;
+}
+.footer{
+    background:linear-gradient(#1d1d1d,#0a0a0a);
+    border-top:.2rem solid #515253;
+    padding-top:1.25rem;
+    padding-bottom:1.25rem
+}
+.footer .text{
+    color:#fff;
+    font-size:1rem;
+    font-family:Roboto;
+    font-weight:300
+}
+
+/* Start Article */
+.cDTE_ArticlePreview>div.articlePreviewContainer {
+    background-color: unset !important;
+    border: unset !important;
+    border-radius: unset !important;
+    box-shadow: unset !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-bottom: 1rem !important;
+}
+.cDTE_ArticlePreview>div.articlePreviewContainer .previewContent {
+    display: none !important;
+}
+.cDTE_ArticlePreview>div.articlePreviewContainer.noFlex>div.articlePreviewContent {
+    position: unset !important;
+}
+/* End Article */
+.slds-p-horizontal_medium, .slds-p-horizontal--medium {
+  padding-left: unset !important;
+  padding-right: unset !important;
+}
+.slds-m-top_x-large, .slds-m-top--x-large {
+  margin-top: unset !important;
+}
+.siteforceContentArea .comm-layout-column:not(:empty) {
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+}
+.slds-col_padded, .slds-col--padded {
+  padding-left: unset !important;
+  padding-right: unset !important;
+}
+
+.cDTE_MainMenu>div, .cDTE_MainMenu .menu-menu1 {
+  background-color: #000000 !important;
+}
+.cDTE_MainMenu .menu-menu1>.userInfoMenu {
+  width: 16rem !important;
+}
+.cDTE_MainMenu .userInfoMenu>div:nth-of-type(1) {
+  color: #c6961d;
+  font-family: 'Roboto' !important;
+  text-transform: uppercase !important;
+}
+.cDTE_MainMenu .userInfoMenu>div:nth-of-type(2) {
+  color: #ffffff !important;
+  font-family: 'Roboto' !important;
+}
+.cDTE_MainMenu .mobileMenuIcon>div {
+   background-color:  #ffffff !important;
+}
+.cDTE_MainMenu .activeMobileMenu {
+  background-color: #c6961d !important;
+}
+.cDTE_MainMenu .activeMobileMenu button.slds-button {
+  color: #000000 !important;
+  text-align: right !important;
+  padding-right: 2rem !important;
+}
+.cDTE_MainMenu .activeMobileMenu.isMobileMenuActive .slds-button label {
+  float: unset !important;
+}
+.cDTE_MainMenu .activeMobileMenu>button>.iconInButton {
+  display: none !important;
+}
+
+.cDTE_CommunityCustomLayout .mainContentArea>div>div:nth-child(2)>div {
+	margin-top: -36px !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .wrapper-background {
+  display: none !important;
+}
+.slds-tabs_default, .slds-tabs--default {
+  background-color: transparent !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .slds-tabs--default__nav .slds-tabs--default__item.slds-active, .cDTE_MyTask_Widget:not(.old-UX) .slds-tabs--default__nav .slds-tabs--default__item.slds-active .slds-tabs--default__link {
+  color: #daa520 !important;
+  border-bottom: 0.125rem solid #e1aa21 !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .slds-tabs--default__nav .slds-tabs--default__item {
+  width: 33.33% !important;
+  text-align: center !important;
+  margin-left: unset !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .slds-tabs--default__nav .slds-tabs--default__item+.slds-tabs--default__item {
+  width: 33.33% !important;
+  text-align: center !important;
+  margin-left: unset !important;
+  border-bottom: 0.125rem solid #181818 !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .slds-tabs--default__nav .slds-tabs--default__item .slds-tabs--default__link {
+  color: #daa520 !important;
+  font-size: 1rem !important;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase !important;
+  line-height: 1.5 !important;
+  height: unset !important;
+  padding: .5rem 1rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .slds-tabs--default__content {
+  padding-top: 1.25rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.cDTE_MyTask_Widget article.task-card {
+  position: relative !important;
+  background-image: url('http://dev5.sofresh.vn/morrisreward/assets/images/salesforce/thu-thach/bim.jpg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-top: 0.1rem solid #c6961d !important;
+  border-bottom: 0.1rem solid #c6961d !important;
+  padding: 3.5rem 1.25rem 2.5rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+.cDTE_MyTask_Widget article.task-card .cardContent .taskImage {
+  border: 0.1rem solid #c6961d !important;
+  border-radius: 2rem !important;
+  overflow: hidden !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.task-card>div.cardContent>div.taskImage>img {
+  height: 20rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.task-card>div.cardContent>div:nth-child(2) {
+  padding-top: unset !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) div.assgined-label {
+  display: none !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.task-card>div.cardContent>div.mainContent .slds-card__header .touchpoint-label {
+  display: none !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) h2.taskName {
+  color: #ffffff !important;
+  font-size: 1.25rem !important;
+  font-family: 'Roboto' !important;
+  text-align: center !important;
+  margin-bottom: 0.5rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) div.task-body {
+  color: #ffffff !important;
+  font-size: 1rem !important;
+  font-family: 'Roboto' !important;
+  text-align: center !important;
+  padding: unset !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .start-task--container {
+  text-align: center !important;
+  padding: unset !important;
+  margin-top: 1.25rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .start-task--container .start-task--label {
+  color: #fff !important;
+  background-color: #c6961d !important;
+  border-color: #c6961d !important;
+  font-size: 1.25rem !important;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase !important;
+  border-radius: 3rem !important;
+  padding: 0.5rem 3rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.task-card>div.cardContent>div:last-child.slds-card__footer {
+  display: none !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.slds-card.taskPopUpCard {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.slds-card div.buttonContainer {
+  background-color: transparent !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.slds-card div.buttonContainer .back-arrow--icon {
+  display: none !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.slds-card div.buttonContainer .all-tasks--label {
+  color: #fff !important;
+  background-color: #c6961d !important;
+  border-color: #c6961d !important;
+  font-size: 1.25rem !important;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase !important;
+  border-radius: 1.5rem !important;
+  padding: 0.75rem 2.75rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.slds-card .task-header--upper-content {
+  display: none !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.slds-card .task-header--description {
+  display: none !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.taskQuestion {
+  border: 0.1rem solid #c6961d !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  margin-bottom: 2rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.taskQuestion .questionPart {
+  color: #ffffff !important;
+}
+.cDTE_MyTask_Widget .customTaskRadioLabel {
+  margin-top: 0.2rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.taskQuestion div.questionNumber>h3 {
+  color: #c6961d !important;
+  font-size: 2.5rem !important;
+  font-family: 'Oswald' !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+  line-height: 1.5 !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.taskQuestion .questionPart .question--header-text {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  font-size: 1.25rem !important;
+  font-family: 'Oswald' !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.taskQuestion div.questionOptions .sldc {
+  background-color: #000000 !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.taskQuestion div.questionOptions input.fileUploadInput+label {
+  background-color: #000000 !important;
+}
+
+.cDTE_MyTask_Widget:not(.old-UX) article.taskQuestion div.questionOptions input.fileUploadInput+label>span:last-child {
+  color: #fff !important;
+  background-color: #c6961d !important;
+  border-color: #c6961d !important;
+  font-size: 1.25rem !important;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase !important;
+  border-radius: 1.5rem !important;
+  padding: 0.75rem 2.75rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) article.taskQuestion div.questionOptions input.fileUploadInput+label>span:last-child span {
+  color: #fff !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) div.slds-card__footer.buttonFooter:not(.slds-hide) {
+  justify-content: center !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .buttonFooter .slds-button--neutral {
+  color: #fff !important;
+  background-color: #c6961d !important;
+  border-color: #c6961d !important;
+  font-size: 1.25rem !important;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase !important;
+  border-radius: 1.5rem !important;
+  padding: 0.75rem 2.75rem !important;
+}
+.cDTE_MyTask_Widget:not(.old-UX) .buttonFooter .slds-button--neutral:focus {
+  box-shadow: #c6961d !important;
+}
+
+
+.cDTE_BaseThemeLayout .cDTE_LoginForm:not(.old-UX) .login-box_container div.login-background,
+.cDTE_BaseThemeLayout .cDTE_ForgotPassword:not(.old-UX) div.login-background,
+.cDTE_BaseThemeLayout .cDTE_SelfRegistration:not(.old-UX) div.login-background { background-image: url('/file-asset/backgorund89337277?v=1');
+}
+.cDTE_BaseThemeLayout.ios-app .cDTE_ForgotPassword:not(.old-UX) .logo-wrapper,
+.cDTE_BaseThemeLayout.ios-app .cDTE_SelfRegistration:not(.old-UX) .logo-wrapper {
+top: 24px;
+}
+@media only screen and (min-width: 48em) {
+.cDTE_BaseThemeLayout.ios-app .cDTE_LoginForm:not(.old-UX) .logo-wrapper {
+top: 20px;
+}
+}
+/* Custom CSS for Login pages and Self Registration (with Base Layout) - ends here */
+/* Custom CSS for Login pages and Self Registration (with Login Layout) - starts here */
+.salesforceIdentityLoginBody2 div.cCenterPanel div.cDTE_LoginForm:not(.old-UX) {
+margin: -5px -12px;
+top: 0;
+}
+.salesforceIdentityLoginBody2 div.cCenterPanel {
+margin:0;
+max-width: none;
+position: static;
+width: 100%;
+}
+.salesforceIdentityLoginBody2 div.cCenterPanel:before {
+bottom: 0;
+left: 0;
+margin: 0;
+padding: 0;
+right: 0;
+top: 0;
+}
+/* Custom CSS for Login pages and Self Registration (with Login Layout) - ends here */
+.salesforceIdentityLoginBody2 {
+  background-color: #000000 !important;
+  background-image: url('http://dev5.sofresh.vn/morrisreward/assets/images/salesforce/login-bim.jpg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.cDTE_LoginForm:not(.old-UX) {
+  margin: unset !important;
+  top: unset !important;
+}
+.cDTE_LoginForm:not(.old-UX) .register_wrapper {
+  display: none !important;
+}
+.salesforceIdentityLoginBody2 .cCenterPanel {
+  background-color: transparent !important;
+  margin-top: unset !important;
+  margin-bottom: unset !important;
+}
+.salesforceIdentityLoginBody2 .cCenterPanel:before {
+  content: unset !important;
+}
+.cDTE_LoginForm:not(.old-UX) .login-box_container {
+  padding-top: 1rem !important;
+  padding-bottom: unset !important;
+}
+.salesforceIdentityLoginBody2 .ui-widget {
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window {
+  padding: 1.25rem 0 !important;
+  background-color: transparent !important;
+}
+
+.cDTE_LoginForm:not(.old-UX) .logo-wrapper {
+  background-color: transparent !important;
+  text-align: center !important;
+  padding-top: 2rem !important;
+}
+.cDTE_LoginForm:not(.old-UX) .logo-wrapper .login-logo {
+  width: 5rem !important;
+  height: 5rem !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .login {
+  display: none !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .slds-form-element {
+  background-color: transparent !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .slds-form-element .slds-form-element__control .slds-input {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border: 0.0625rem solid #c6961d !important;
+  border-radius: 2rem !important;
+  padding: 0.5rem 1.25rem !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .rememberMe .slds-form-element__control {
+  background-color: #000000 !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .rememberMe .slds-checkbox {
+  text-align: center!important;
+  padding: unset !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .slds-form-element .slds-checkbox input[type=checkbox]:checked~.slds-checkbox__label .slds-form-element__label {
+  display: inline-block !important;
+  color: #ffffff !important;
+  padding-left: unset !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .slds-form-element .slds-checkbox input[type=checkbox]:checked~.slds-checkbox__label .slds-form-element__label span a {
+  color: #ffffff !important;
+}
+
+.cDTE_LoginForm:not(.old-UX) .widget-window .widget-buttons {
+  text-align: center !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .widget-buttons .slds-button--brand {
+  color: #fff !important;
+  background-color: #c6961d !important;
+  border-color: #c6961d !important;
+  font-size: 0.875rem !important;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase !important;
+  line-height: 1.2 !important;
+  border-radius: 1.5rem !important;
+  padding: 0.25rem 2.75rem !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .footer_tandc {
+  text-align: center !important;
+  padding-top: 6rem !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .footer_tandc>div {
+  display: block !important;
+  margin-left: unset !important;
+}
+.cDTE_LoginForm:not(.old-UX) .widget-window .footer_tandc a {
+  color: #ffffff !important;
+  font-size: 0.625rem !important;
+  text-transform: uppercase;
+}

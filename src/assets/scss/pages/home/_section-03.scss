@@ -1,0 +1,64 @@
+.section-03 {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+
+  .section-header {
+    text-align: center;
+
+    .title {
+      color: #ad7835;
+      font-size: 3.75rem;
+      font-family: 'Droid Serif';
+    }
+    .line {
+      background-color: #ad7835;
+      width: 6.25rem;
+      height: 0.125rem;
+      margin-top: 0.75rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .section-content {
+    padding-top: 6rem;
+
+    .article {
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+      &.article-center {
+        margin-top: 5.5rem;
+      }
+
+      .thumbnail {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        margin-bottom: 2.5rem;
+
+        img {
+          box-shadow: -2rem -2rem #363636;
+        }
+      }
+      .title {
+        color: #ad7835;
+        font-size: 1.25rem;
+        font-family: 'Droid Serif';
+        border-bottom: 0.0625rem solid #ad7835;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.75rem;
+      }
+      .content {
+        color: #ffffff;
+        font-size: 1rem;
+        font-family: 'Raleway';
+        margin-bottom: 1.75rem;
+      }
+      .read-more {
+        color: #ad7835;
+        font-size: 1rem;
+        font-family: 'Raleway';
+        font-weight: 700;
+      }
+    }
+  }
+}
