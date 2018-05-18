@@ -9,6 +9,7 @@
       color: #ad7835;
       font-size: 3.75rem;
       font-family: 'Droid Serif';
+      line-height: 1;
     }
     .line {
       background-color: #ad7835;
@@ -28,6 +29,14 @@
 
       &.article-center {
         margin-top: 5.5rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        margin-bottom: 4.5rem;
+
+        &.article-center {
+          margin-top: unset;
+        }
       }
 
       .thumbnail {

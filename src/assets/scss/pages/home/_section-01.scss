@@ -7,7 +7,15 @@
   .section-content {
     text-align: center;
     border: 0.5rem solid #ad7835;
-    padding: 6.25rem 9rem;
+    padding: 6rem 9rem;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      border: 0.25rem solid #ad7835;
+      padding: 3rem 1.5rem;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
 
     .welcome {
       color: #ffffff;
@@ -15,6 +23,10 @@
       font-family: 'Raleway';
       font-weight: 700;
       text-transform: uppercase;
+
+      @media screen and (max-width: 600px) {
+        font-size: 0.75rem;
+      }
     }
     .line {
       background-color: #ffffff;
@@ -23,12 +35,22 @@
       margin-top: 0.75rem;
       margin-left: auto;
       margin-right: auto;
+
+      @media screen and (max-width: 600px) {
+        width: 3.125rem;
+        height: 0.0625rem;
+        margin-top: 0.375rem;
+      }
     }
     .title {
       color: #ffffff;
       font-size: 11.5rem;
       font-family: 'Droid Serif';
       line-height: 1.2;
+
+      @media screen and (max-width: 600px) {
+        font-size: 5.75rem;
+      }
     }
     .subtitle {
       color: #ac752f;
@@ -36,6 +58,10 @@
       font-family: 'Raleway';
       font-weight: 700;
       text-transform: uppercase;
+
+      @media screen and (max-width: 600px) {
+        font-size: 0.75rem;
+      }
     }
   }
 }

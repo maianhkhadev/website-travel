@@ -101,7 +101,7 @@ body{
     background-position:50%;
     background-repeat:no-repeat;
     background-size:cover;
-    padding-top:6.25rem;
+    padding-top:8.25rem;
     padding-bottom:1.25rem
 }
 .mirum-header .links{
@@ -191,7 +191,7 @@ body{
 }
 .socials .link{
     color:#fff;
-    font-size:0.75rem;
+    font-size:0.625rem;
     font-family:Roboto;
     font-weight:300;
     text-decoration: underline;
@@ -208,6 +208,150 @@ body{
     font-family:Roboto;
     font-weight:300
 }
+/* Start Info */
+.uiTabset--default {
+  background-color: #000000 !important;
+}
+.forceCommunityTabset.uiTabset .uiTabBar .uiTabItem {
+  max-width: unset !important;
+}
+.uiTabset--default .tabs__nav {
+  border-bottom: 0.1rem solid #212529 !important;
+}
+.uiTabset--default .tabs__item > a {
+  border-bottom: 0.1rem solid transparent !important;
+}
+.uiTabset--default .tabs__item.active > a {
+  color: #c6961d !important;
+  border-color: #c6961d !important;
+}
+.forceCommunityTabset .uiTabBar {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.aboutme--component-title {
+  display: none !important;
+}
+.cDTE_MyDataWidgetComponent .container {
+  box-shadow: unset !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--component-header .aboutme--edit-icon {
+  margin-top: 1.5rem !important;
+  margin-right: 1.5rem !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--component-header .aboutme--edit-icon .editAction {
+  color: #ffffff !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--component-header .aboutme--edit-icon svg {
+  fill: #ffffff !important;
+}
+.cDTE_MyDataWidgetComponent .container .aboutme--section-separator {
+  color: #c6961d !important;
+  background-color: #000000 !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--user-name {
+  color: #ffffff !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--section-label {
+  color: #c6961d !important;
+}
+.cDTE_MyDataWidgetComponent .slds-form-element__label {
+  color: #c6961d !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--personal-address .aboutme--address-details {
+  color: #ffffff !important;
+}
+.cDTE_MyDataWidgetComponent .slds-output {
+  color: #ffffff !important;
+}
+.cDTE_MyDataWidgetComponent .changepassword {
+  color: #ffffff !important;
+}
+.cDTE_MyDataWidgetComponent .changepassword svg {
+  fill: #ffffff !important;
+}
+.uiTabset--default .tabs__content .forceCommunityRichText .uiOutputRichText {
+  display: none !important;
+}
+.cDTE_Trade_Programs div.slds-notify.comToken {
+  background-color: #c6961d !important;
+  margin-bottom: 2.5rem !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--action-buttons {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--edit-section>.aboutme--section-separator~.aboutme--section-separator {
+  color: #ffffff !important;
+  padding-left: 2.5rem !important;
+}
+.slds span.slds-input {
+  color: #5f5e5e !important;
+  background-color: #262626 !important;
+  border-color: #5f5e5e !important;
+  border-radius: 2rem !important;
+  padding: 0.5rem 1.25rem !important;
+}
+input.uiInput--default {
+  color: #5f5e5e !important;
+  background-color: #262626 !important;
+  border-color: #5f5e5e !important;
+  border-radius: 2rem !important;
+  padding: 0.5rem 1.25rem !important;
+}
+input.uiInput--checkbox[type="checkbox"] {
+  display: inline-block !important;
+}
+.cDTE_MyDataWidgetComponent .slds-form-element__control span {
+  color: #ffffff !important;
+}
+.cDTE_MyDataWidgetComponent select.slds-select, .cDTE_MyDataWidgetComponent select:not([multiple]).select.uiInput--select {
+  color: #5f5e5e !important;
+  background-color: #262626 !important;
+  border-color: #5f5e5e !important;
+  border-radius: 2rem !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--component-header .aboutme--edit-icon .slds-button--brand {
+  background-color: #c6961d !important;
+  border-color: #c6961d !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--action-buttons .slds-button--brand {
+  background-color: #c6961d !important;
+  border-color: #c6961d !important;
+}
+.cDTE_MyDataWidgetComponent .aboutme--action-buttons .slds-button--brand.button-secondary {
+  color: #c6961d !important;
+  background-color: transparent !important;
+  border-color: #c6961d !important;
+}
+/* End Info */
+
+/* Start Modal */
+.slds-modal__content {
+  background-color: #000000 !important;
+}
+.cDTE_ArticleFull.fullArticleContainer {
+  background-color: #000000 !important;
+}
+.cDTE_ArticleFull>div.fullArticleContent>div.carouselContainer {
+  display: none !important;
+}
+.slds-spinner_container {
+  background-color: #000000 !important;
+}
+.cDTE_ArticleFull>div.fullArticleContent>div.completeButton:not(.slds-hide)>button {
+  width: unset !important;
+  color: #fff !important;
+  background-color: #c6961d !important;
+  border-color: #c6961d !important;
+  font-size: 0.875rem !important;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase !important;
+  line-height: 1.2 !important;
+  border-radius: 1.5rem !important;
+  padding: 0.75rem 2.75rem !important;
+}
+/* End Modal */
 
 /* Start Article */
 .cDTE_ArticlePreview>div.articlePreviewContainer {
